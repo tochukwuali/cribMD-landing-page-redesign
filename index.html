@@ -5,13 +5,16 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="/tailwind.css" rel="stylesheet" />
+  <link href="css/tailwind.css" rel="stylesheet" />
+  <link href="css/flickity.css" rel="stylesheet" media="screen"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
   <title>Document</title>
 </head>
 
 <body>
   <div>
-    <!-- This example requires Tailwind CSS v2.0+ -->
+   
     <div class="relative bg-white overflow-hidden">
       <div class="max-w-7xl mx-auto">
         <div class="
@@ -131,7 +134,7 @@
                   ">
                 <div class="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    <img class="h-8 w-auto" src="./assets/icons/logo-on-white__500x.webp"
                       alt="" />
                   </div>
                   <div class="-mr-2">
@@ -235,7 +238,9 @@
                 lg:mt-20
                 lg:px-8
                 xl:mt-28
-              ">
+              " data-aos="fade-right" data-aos-offset="50" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
+            data-aos-anchor-placement="top-center">
             <div class="sm:text-center lg:text-left">
               <h2 class="
                     text-4xl
@@ -309,7 +314,11 @@
       </div>
     </div>
 
-    <section class="sm:mt-28 mt-10 py-2 max-w-7xl mx-auto">
+    <!-- Doctors specialization section -->
+
+    <section class="sm:mt-28 mt-10 py-2 max-w-7xl mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+      data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
+      data-aos-anchor-placement="top-center">
       <div class="px-8">
         <div class="text-center">
           <h3 class="
@@ -505,7 +514,9 @@
 
     <!-- Our Services section -->
 
-    <section class="sm:mt-28 mt-8 py-2 max-w-7xl mx-auto">
+    <section class="sm:mt-28 mt-8 py-2 max-w-7xl mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+      data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
+      data-aos-anchor-placement="top-center">
       <div class="px-8">
         <div class="text-center">
           <h3 class="
@@ -678,7 +689,9 @@
 
     <!-- Doctor home service details Section -->
 
-    <section class="sm:mt-28 mt-10 py-2 max-w-6xl mx-auto">
+    <section class="sm:mt-28 mt-10 py-2 max-w-6xl mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+      data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
+      data-aos-anchor-placement="top-center">
       <div class="px-8 flex flex-col max-w-6xl sm:flex-row sm:justify-between md:space-x-4">
 
         <img src="./assets/iphone-12-pro--silver.webp" alt=""
@@ -808,33 +821,53 @@
         </div>
         <div class="py-4 mt-5">
           <div class="grid md:grid-cols-5 sm:grid-cols-4 gap-0.5">
-            <div class="px-4 py-6  filter grayscale flex justify-center items-center " ><img  src="./assets/partners/partner_1.webp" alt="partner-1"></div>
-            <div class="px-2 py-6  filter grayscale flex justify-center"><img src="./assets/partners/partner_2.webp" alt="partner-2"></div>
-            <div class="px-2 py-6 filter grayscale flex justify-center"><img src="./assets/partners/partner_3.webp" alt="partner-3"></div>
-            <div class="px-2 py-6  filter grayscale flex items-center justify-center"><img src="./assets/partners/partner_4.webp" alt="partner-4"></div>
-            <div class="px-2 py-6  filter grayscale flex items-center justify-center"><img src="./assets/partners/partner_5.webp" alt="partner-5"></div>
-            <div class="px-2 py-6  filter grayscale flex items-center justify-center"><img src="./assets/partners/partner_6.webp" alt="partner-6"></div>
-            <div class="p-2 filter grayscale flex items-center justify-center"><img class="" src="./assets/partners/partner_7.webp" alt="partner-7"></div>
-            <div class="p-2 filter grayscale flex items-center justify-center"><img class="w-4/5" src="./assets/partners/partner_8.webp" alt="partner-8"></div>
-            <div class="p-2 filter grayscale"><img class="w-3/5" src="./assets/partners/partner_9.webp" alt="partner-9"></div>
-            <div class="p-2 filter grayscale flex items-center"><img class="w-4/5" src="./assets/partners/partner_10.webp" alt="partner-10"></div>
-            <div class="p-2 filter grayscale flex justify-center items-center"><img src="./assets/partners/partner_11.webp" alt="partner-11"></div>
-            <div class="p-2 filter grayscale flex justify-center items-center"><img class="w-4/5" src="./assets/partners/partner_12.webp" alt="partner-12"></div>
-            <div class="p-2 filter grayscale flex justify-center items-center"><img src="./assets/partners/partner_13.webp" alt="partner-13"></div>
-            <div class="p-2 filter grayscale flex justify-center items-center"><img src="./assets/partners/partner_14.webp" alt="partner-14"></div>
-            <div class="p-2 filter grayscale flex justify-center items-center"><img src="./assets/partners/partner_15.webp" alt="partner-15"></div>
-            <div class="px-2 py-4 filter grayscale flex items-center justify-center"><img class='w-2/5' src="./assets/partners/partner_16.webp" alt="partner-16"></div>
-            <div class="p-2 filter grayscale  flex items-center justify-center"><img class='w-3/5' src="./assets/partners/partner_17.webp" alt="partner-17"></div>
-            <div class="p-2 filter grayscale  flex items-center justify-center"><img class='w-4/5' src="./assets/partners/partner_18.webp" alt="partner-18"></div>
-            <div class="p-2 filter grayscale flex items-center justify-center"><img class='w-3/5' src="./assets/partners/partner_19.webp" alt="partner-19"></div>
-            <div class="p-2  filter grayscale flex items-center justify-center"><img class='' src="./assets/partners/partner_21.webp" alt="partner-21"></div>
+            <div class="px-4 py-6  filter grayscale flex justify-center items-center "><img
+                src="./assets/partners/partner_1.webp" alt="partner-1"></div>
+            <div class="px-2 py-6  filter grayscale flex justify-center"><img src="./assets/partners/partner_2.webp"
+                alt="partner-2"></div>
+            <div class="px-2 py-6 filter grayscale flex justify-center"><img src="./assets/partners/partner_3.webp"
+                alt="partner-3"></div>
+            <div class="px-2 py-6  filter grayscale flex items-center justify-center"><img
+                src="./assets/partners/partner_4.webp" alt="partner-4"></div>
+            <div class="px-2 py-6  filter grayscale flex items-center justify-center"><img
+                src="./assets/partners/partner_5.webp" alt="partner-5"></div>
+            <div class="px-2 py-6  filter grayscale flex items-center justify-center"><img
+                src="./assets/partners/partner_6.webp" alt="partner-6"></div>
+            <div class="p-2 filter grayscale flex items-center justify-center"><img class=""
+                src="./assets/partners/partner_7.webp" alt="partner-7"></div>
+            <div class="p-2 filter grayscale flex items-center justify-center"><img class="w-4/5"
+                src="./assets/partners/partner_8.webp" alt="partner-8"></div>
+            <div class="p-2 filter grayscale"><img class="w-3/5" src="./assets/partners/partner_9.webp" alt="partner-9">
+            </div>
+            <div class="p-2 filter grayscale flex items-center"><img class="w-4/5"
+                src="./assets/partners/partner_10.webp" alt="partner-10"></div>
+            <div class="p-2 filter grayscale flex justify-center items-center"><img
+                src="./assets/partners/partner_11.webp" alt="partner-11"></div>
+            <div class="p-2 filter grayscale flex justify-center items-center"><img class="w-4/5"
+                src="./assets/partners/partner_12.webp" alt="partner-12"></div>
+            <div class="p-2 filter grayscale flex justify-center items-center"><img
+                src="./assets/partners/partner_13.webp" alt="partner-13"></div>
+            <div class="p-2 filter grayscale flex justify-center items-center"><img
+                src="./assets/partners/partner_14.webp" alt="partner-14"></div>
+            <div class="p-2 filter grayscale flex justify-center items-center"><img
+                src="./assets/partners/partner_15.webp" alt="partner-15"></div>
+            <div class="px-2 py-4 filter grayscale flex items-center justify-center"><img class='w-2/5'
+                src="./assets/partners/partner_16.webp" alt="partner-16"></div>
+            <div class="p-2 filter grayscale  flex items-center justify-center"><img class='w-3/5'
+                src="./assets/partners/partner_17.webp" alt="partner-17"></div>
+            <div class="p-2 filter grayscale  flex items-center justify-center"><img class='w-4/5'
+                src="./assets/partners/partner_18.webp" alt="partner-18"></div>
+            <div class="p-2 filter grayscale flex items-center justify-center"><img class='w-3/5'
+                src="./assets/partners/partner_19.webp" alt="partner-19"></div>
+            <div class="p-2  filter grayscale flex items-center justify-center"><img class=''
+                src="./assets/partners/partner_21.webp" alt="partner-21"></div>
           </div>
         </div>
       </div>
     </section>
-     <!-- Partners list Section -->
+    <!-- Partners list Section -->
 
-    <section class="sm:mt-16 mt-10 py-2 max-w-6xl mx-auto">
+    <section class="sm:mt-16 mt-10 py-2 max-w-4xl mx-auto">
       <div>
         <div class="text-center">
           <h3 class="
@@ -858,11 +891,67 @@
                 md:mt-5
                 md:text-base
               ">
-               We’re loved by our customers and they go on to recommend us to friends and family. </p>
+                We’re loved by our customers and they go on to recommend us to friends and family. </p>
+        </div>
+        <div>
+          <!-- <div class="flex sm:flex-row flex-col">
+           <div>
+             <p>
+                My experience when a doctor showed up at my home for a  doctor-house-call went smooth
+             </p>
+             <h4>Chris Benjamin</h4>
+              <div>
+              <img src='' alt='' />
+            </div>
+           </div>
+            <div>
+             <p>
+                Being able to chat with the doctor from my home during the pandemic has been awesome
+             </p>
+             <h4>Michelle Takwabena</h4>
+              <div>
+              <img src='' alt='' />
+            </div>
+            </div>
+            <div>
+             <p>
+                Through thr cribMD platform I've been able to keep my treatment on track and maintain a safe health level I feel comfortable with
+             </p>
+             <h4>Chinedu Adiele</h4>
+              <div>
+              <img src='' alt='' />
+            </div>
+           </div>
+           <div>
+             <p>
+                cribMD was able to save me the time and stress of going to the hospital while delivering excellent services.
+             </p>
+             <h4>Rotimi Ogundipe</h4>
+              <div>
+              <img src='' alt='' />
+            </div>
+          </div> -->
+<div class="main-carousel"  data-flickity-options='{ "groupCELLS": true }'>
+  <div class="carousel-cell">1</div>
+  <div class="carousel-cell">2</div>
+  <div class="carousel-cell">3</div>
+  <div class="carousel-cell">4</div>
+  
+</div>
+    
+
         </div>
       </div>
-    <footer></footer>
+    </section>
+      <footer></footer>
   </div>
+  <script src="node_modules/aos/dist/aos.js"></script>
+  <script src="js/flickity.pkgd.min.js"></script>
+  <script src="js/index.js"> </script>
+  <script>
+    AOS.init();
+   
+  </script>
 </body>
 
 </html>

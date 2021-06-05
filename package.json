@@ -1,0 +1,25 @@
+{
+  "name": "cribmd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "embla-carousel": "^4.5.3",
+    "flickity": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tochukwuali/cribMD-landing-page-redesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tochukwuali/cribMD-landing-page-redesign/issues"
+  },
+  "homepage": "https://github.com/tochukwuali/cribMD-landing-page-redesign#readme"
+}
