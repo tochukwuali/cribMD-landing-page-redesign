@@ -6,15 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="css/tailwind.css" rel="stylesheet" />
-  <link href="css/flickity.css" rel="stylesheet" media="screen"/>
+  <link href="css/flickity.css" rel="stylesheet" media="screen" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+  <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
   <title>Document</title>
 </head>
 
 <body>
   <div>
-   
+
     <div class="relative bg-white overflow-hidden">
       <div class="max-w-7xl mx-auto">
         <div class="
@@ -115,7 +116,7 @@
             From: "opacity-100 scale-100"
             To: "opacity-0 scale-95"
         -->
-            <div class="
+            <!-- <div class="
                   absolute
                   top-0
                   inset-x-0
@@ -134,8 +135,7 @@
                   ">
                 <div class="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img class="h-8 w-auto" src="./assets/icons/logo-on-white__500x.webp"
-                      alt="" />
+                    <img class="h-8 w-auto" src="./assets/icons/logo-on-white__500x.webp" alt="" />
                   </div>
                   <div class="-mr-2">
                     <button type="button" class="
@@ -152,7 +152,7 @@
                           focus:ring-2 focus:ring-inset focus:ring-indigo-500
                         ">
                       <span class="sr-only">Close main menu</span>
-                      <!-- Heroicon name: outline/x -->
+                      
                       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -224,7 +224,7 @@
                   Log in
                 </a>
               </div>
-            </div>
+            </div> -->
           </div>
 
           <main class="
@@ -243,7 +243,7 @@
             data-aos-anchor-placement="top-center">
             <div class="sm:text-center lg:text-left">
               <h2 class="
-                    text-4xl
+                    text-3xl
                     tracking-tight
                     font-extrabold
                     text-gray-900
@@ -256,7 +256,9 @@
               </h2>
               <p class="
                     mt-3
-                    text-base text-gray-500
+                    py-4
+                    md:py-0
+                    text-base text-gray-600
                     sm:mt-5
                     sm:text-lg
                     sm:max-w-xl
@@ -272,13 +274,17 @@
                 <a class="
                       md:w-2/5
                       sm:w-full
+                      w-3/5
                       flex
                       md:py-2.5
                       md:text-lg
+                      text-sm
                       md:px-8
                       bg-blue-800
-                      px-6
-                      py-3
+                      sm:px-6
+                      sm:py-3
+                      px-4
+                      py-2
                       font-medium
                       items-center
                       justify-center
@@ -290,7 +296,7 @@
                   Find a Doctor
                 </a>
               </div>
-              <div class="flex mt-2 sm:mt-5 justify-center lg:justify-start">
+              <div class="flex mt-2 sm:mt-5 sm:justify-center lg:justify-start">
                 <div>
                   <a class="flex"
                     href="https://apps.apple.com/us/app/cribmd/id1534919330?itsct=apps_box_badge&amp;itscg=30200">
@@ -316,10 +322,10 @@
 
     <!-- Doctors specialization section -->
 
-    <section class="sm:mt-28 mt-10 py-2 max-w-7xl mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    <section class="sm:mt-28 mt-10 py-2 max-w-7xl mx-auto" data-aos="fade-up" data-aos-offset="100" data-aos-delay="50"
       data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
       data-aos-anchor-placement="top-center">
-      <div class="px-8">
+      <div class="md:px-8 px-4">
         <div class="text-center">
           <h3 class="
                 text-4lg
@@ -348,21 +354,14 @@
             advice. Get access to highly qualified doctors on CribMD!
           </p>
         </div>
-        <div class="
-              flex
-              sm:flex-row sm:flex-wrap
-              sm:justify-center
-              items-center
-              flex-col
-              py-6
-            ">
+        <div class="sm:flex sm:flex-row sm:flex-wrap sm:justify-center grid gap-2 grid-cols-2 items-center flex-col py-6">
           <div class="
                 rounded-md
                 shadow-2xl
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -381,7 +380,7 @@
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -400,7 +399,7 @@
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -419,7 +418,7 @@
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -438,7 +437,7 @@
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -457,7 +456,7 @@
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -476,7 +475,7 @@
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -495,7 +494,7 @@
                 border border-transparent
                 px-12
                 py-12
-                ml-8
+                md:ml-8
                 text-center
                 relative
                 mt-10
@@ -514,16 +513,16 @@
 
     <!-- Our Services section -->
 
-    <section class="sm:mt-28 mt-8 py-2 max-w-7xl mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
-      data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
-      data-aos-anchor-placement="top-center">
-      <div class="px-8">
-        <div class="text-center">
+    <section class="sm:mt-28 mt-4 py-12  mx-auto bg-gray-100" data-aos="fade-up" data-aos-offset="50"
+      data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true"
+      data-aos-once="true" data-aos-anchor-placement="top-center">
+      <div class="px-2 max-w-7xl">
+        <div class="text-center px-4">
           <h3 class="
                 text-4lg
                 tracking-tight
                 font-bold
-                text-gray-900
+                text-gray-700
                 sm:text-2xl
                 md:text-4xl
                 text-center
@@ -548,7 +547,7 @@
             affordable healthcare services to you and your family.
           </p>
         </div>
-        <div class="py-12 bg-white">
+        <div class="py-12">
           <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="mt-10">
               <dl class="
@@ -689,26 +688,16 @@
 
     <!-- Doctor home service details Section -->
 
-    <section class="sm:mt-28 mt-10 py-2 max-w-6xl mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+    <section class="sm:mt-28 mt-10 py-2 max-w-6xl mx-auto" data-aos="fade-up" data-aos-offset="50" data-aos-delay="50"
       data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"
       data-aos-anchor-placement="top-center">
       <div class="px-8 flex flex-col max-w-6xl sm:flex-row sm:justify-between md:space-x-4">
 
         <img src="./assets/iphone-12-pro--silver.webp" alt=""
-          class="sm:w-64 shadow-2xl rounded-3xl border border-transparent" />
+          class="sm:w-64 shadow-2xl rounded-3xl border md:block hidden border-transparent" />
 
         <div class="sm:py-16 md:mt-12">
-          <div class="
-                         
-                          flex
-                          items-center
-                          justify-center
-                          h-12
-                          w-12
-                          rounded-md
-                          bg-blue-800
-                          text-white
-                        ">
+          <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-800 text-white">
             <!-- <img src="./assets/icons/first-aid-kit.svg" /> -->
           </div>
           <h3 class="
@@ -763,12 +752,65 @@
       </div>
     </section>
 
+    <!-- Video call details section -->
+
+    <section class="sm:mt-28 mt-10 py-2 max-w-6xl mx-auto">
+      <div class="px-8 flex flex-col max-w-6xl sm:flex-row sm:justify-between md:space-x-4">
+        <div class="sm:py-16 md:mt-12">
+          <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-800 text-white">
+            <!-- <img src="./assets/icons/first-aid-kit.svg" /> -->
+          </div>
+          <h3 class="
+                text-3lg
+                tracking-tight
+                font-bold
+                text-gray-900
+                sm:text-2xl
+                md:text-3xl
+                mt-8
+              ">
+            Call or chat verified doctors
+          </h3>
+          <p class=" w-full mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-base">
+            The Wait for Quality Healthcare is Over!
+          </p>
+            <p class=" w-full mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-base">With CribMD, you can now talk to a licensed doctor online, through chat, audio call, or video conference and
+            get instant feedback and prescriptions on the go with your mobile phone. </p>
+          <div class="md:py-6 mt-3 md:justify-start sm:flex sm:justify-center">
+            <a class="
+              md:w-2/5
+              sm:w-full
+              flex
+              md:py-2.5
+              md:text-lg
+              md:px-8
+              bg-blue-800
+              px-6
+              py-3
+              font-medium
+              items-center
+              justify-center
+              rounded-md
+              shadow
+              text-white
+              border border-transparent
+            " href="#">
+              Find a Doctor
+            </a>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/Shadow-removebg-preview.png" alt="" class="sm:w-64 rounded-3xl shadow-2xl md:block hidden border-transparent bg-transparent" />
+        </div>
+      </div>
+    </section>
+
     <!-- Investors List Section -->
     <section class="sm:mt-28 mt-10 py-4 mx-auto">
-      <div class='bg-blue-100 flex sm:flex-row px-32 flex-col rounded-md p-10'>
+      <div class='bg-blue-100 flex flex-col sm:flex-row sm:px-32 flex-col sm:rounded-md p-10'>
         <div class="md:w-2/5">
           <h3 class="
-                text-4lg
+                text-3xl
                 tracking-tight
                 font-bold
                 text-gray-700
@@ -779,8 +821,8 @@
               ">We're fully backed by<h3>
 
         </div>
-        <div class='flex sm:flex-row sm:items-center flex-col space-x-4'>
-          <div class="md:w-1/3 flex justify-end"><a href="https://www.sputnikatx.com/" target="_blank"
+        <div class='flex sm:flex-row py-8 sm:py-0 sm:items-center flex-col space-x-4'>
+          <div class="md:w-1/3 flex justify-center sm:justify-end"><a href="https://www.sputnikatx.com/" target="_blank"
               rel="noopener noreferrer"><img class="w-4/5" src="./assets/icons/Sputnik-logo.webp"
                 alt="sputnik logo"></a></div>
           <div class="md:w-1/3 p-5"><a href="https://www.norrsken.org/" target="_blank" rel="noopener noreferrer"><img
@@ -793,11 +835,11 @@
 
     <!-- Partners list Section -->
 
-    <section class="sm:mt-16 mt-10 py-2 max-w-6xl mx-auto">
+    <section class="sm:mt-4 mt-2 py-2 md:py-24 max-w-6xl mx-auto">
       <div>
         <div class="text-center">
           <h3 class="
-                text-3lg
+                text-3xl
                 tracking-tight
                 font-bold
                 text-gray-700
@@ -820,7 +862,7 @@
                 We’re working with trusted organizations in healthcare, policy and beyond </p>
         </div>
         <div class="py-4 mt-5">
-          <div class="grid md:grid-cols-5 sm:grid-cols-4 gap-0.5">
+          <div class="grid md:grid-cols-5 grid-cols-2 sm:grid-cols-4 gap-0.5">
             <div class="px-4 py-6  filter grayscale flex justify-center items-center "><img
                 src="./assets/partners/partner_1.webp" alt="partner-1"></div>
             <div class="px-2 py-6  filter grayscale flex justify-center"><img src="./assets/partners/partner_2.webp"
@@ -865,13 +907,13 @@
         </div>
       </div>
     </section>
-    <!-- Partners list Section -->
+    <!-- Testimonial Section -->
 
-    <section class="sm:mt-16 mt-10 py-2 max-w-4xl mx-auto">
-      <div>
+    <section class="py-4 md:py-28 bg-gray-50 mx-auto">
+      <div class="max-w-7xl md:px-28 md:pb-8">
         <div class="text-center">
           <h3 class="
-                text-3lg
+                text-2xl
                 tracking-tight
                 font-bold
                 text-gray-900
@@ -879,7 +921,7 @@
                 md:text-3xl
                 w-full
                 
-              ">What Our customers are saying<h3>
+              ">What our customers are saying<h3>
               <p class="
                 
                 mt-3
@@ -893,64 +935,173 @@
               ">
                 We’re loved by our customers and they go on to recommend us to friends and family. </p>
         </div>
-        <div>
-          <!-- <div class="flex sm:flex-row flex-col">
-           <div>
-             <p>
-                My experience when a doctor showed up at my home for a  doctor-house-call went smooth
-             </p>
-             <h4>Chris Benjamin</h4>
-              <div>
-              <img src='' alt='' />
+        <div class="px-4 md:px-0">
+
+          <div class="main-carousel mt-10" data-flickity-options='{ "groupCells": true }'>
+            <div class="carousel-cell shadow-md relative">
+              <div class="flex space-x-4 items-center">
+                <img src='./assets/avatars/avatar-2.webp' alt='avatar'
+                  class="inline-block h-10 w-10 rounded-full ring-2 ring-yellow-400" />
+                <h4 class="font-bold text-gray-700">Chris Benjamin</h4>
+              </div>
+              <p class='text-sm mt-3 text-gray-600'>
+                My experience when a doctor showed up at my home for a doctor-house-call went smooth
+              </p>
             </div>
-           </div>
-            <div>
-             <p>
+
+            <div class="carousel-cell shadow-md">
+              <div class="flex space-x-4 items-center">
+                <img src='./assets/avatars/avatar-1.webp' alt='avatar'
+                  class="inline-block h-10 w-10 rounded-full ring-2 ring-red-400" />
+                <h4 class="font-bold text-gray-700">Michelle Takwabena</h4>
+              </div>
+              <p class='text-sm mt-3 text-gray-600'>
                 Being able to chat with the doctor from my home during the pandemic has been awesome
-             </p>
-             <h4>Michelle Takwabena</h4>
-              <div>
-              <img src='' alt='' />
+              </p>
             </div>
+
+            <div class="carousel-cell shadow-md">
+              <div class="flex space-x-4 items-center">
+                <img src='./assets/avatars/avatar-3.webp' alt='avatar'
+                  class="inline-block h-10 w-10 rounded-full ring-2 ring-blue-400" />
+                <h4 class="font-bold text-gray-700">Chinedu Adiele</h4>
+              </div>
+              <p class='text-sm mt-3 text-gray-600'>
+                Through thr cribMD platform I've been able to keep my treatment on track and maintain a safe health
+                level I feel comfortable with
+              </p>
             </div>
-            <div>
-             <p>
-                Through thr cribMD platform I've been able to keep my treatment on track and maintain a safe health level I feel comfortable with
-             </p>
-             <h4>Chinedu Adiele</h4>
-              <div>
-              <img src='' alt='' />
+
+            <div class="carousel-cell shadow-md">
+              <div class="flex space-x-4 items-center">
+                <img src='./assets/avatars/avatar-4.webp' alt='avatar'
+                  class="inline-block h-10 w-10 rounded-full ring-2 ring-purple-400" />
+                <h4 class="font-bold text-gray-700">Rotimi Ogundipe</h4>
+              </div>
+              <p class='text-sm mt-3 text-gray-600'>
+                cribMD was able to save me the time and stress of going to the hospital while delivering excellent
+                services.
+              </p>
             </div>
-           </div>
-           <div>
-             <p>
-                cribMD was able to save me the time and stress of going to the hospital while delivering excellent services.
-             </p>
-             <h4>Rotimi Ogundipe</h4>
-              <div>
-              <img src='' alt='' />
-            </div>
-          </div> -->
-<div class="main-carousel"  data-flickity-options='{ "groupCELLS": true }'>
-  <div class="carousel-cell">1</div>
-  <div class="carousel-cell">2</div>
-  <div class="carousel-cell">3</div>
-  <div class="carousel-cell">4</div>
-  
-</div>
-    
+
+          </div>
 
         </div>
       </div>
     </section>
-      <footer></footer>
+
+    <!-- Call-to-Action section -->
+
+    <section class="md:py-24 :h-4/5 bg-gray-50">
+      <div class="max-w-7xl md:mb:10 md:ml-72 tall md:relative">
+         <div class="md:w-2/5 md:absolute md:z-20 md:-left-32 top-20">
+           <img class="md:rounded-2xl shadow-2xl" src="./assets/doctor-and-family__1000x.webp" alt="doctor with family">
+         </div>
+         <div class="md:rounded-2xl md:w-4/5 md:left-20 tall-child bg-purple-500 md:absolute filter drop-shadow-xl shadow-2xl">
+          <div class="md:flex md:flex-col md:px-16 p-6 md:mr-16 items-end sm:mt-40">
+             <h3 class="font-bold text-gray-100 text-3xl">Book an Appointment today</h3>
+             <div class="md:w-4/5">
+                <p class="text-gray-100 font-medium text-base md:ml-32 md:mt-6">You can book a doctor's appointment in less than 2 minutes via our mobile app</p>
+             </div>
+              <div class="flex flex-row mt-2 sm:mt-16 justify-center md:mr-36">
+                <div>
+                  <a class="flex"
+                    href="https://apps.apple.com/us/app/cribmd/id1534919330?itsct=apps_box_badge&amp;itscg=30200">
+                    <img src="./assets/icons/apple-black-bg.svg" class="w-28.5" />
+                  </a>
+                </div>
+                <div class="md:mt-0.5 sm:mt-0 px-2">
+                  <a class="flex items-center justify-center"
+                    href="https://play.google.com/store/apps/details?id=cribmd.com.CribMD&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                    <img class="w-32" src="./assets/icons/google-2.svg" alt="Get it on Google Play" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+
+    <footer class="py-12 svg-bg mx-auto relative">
+      <div class="max-w-7xl md:px-28">
+        <div class="md:flex md:flex-row flex flex-col flex-col-reverse sm:p-px p-4 sm:space-x-16">
+          <div class="flex flex-col mt-10 sm:mt-0 w-32">
+            <img src="./assets/icons/logo-on-blue__250x.webp" alt="">
+            <div class="flex sm:py-4 py-3 mt-2 sm:mt-4 space-x-4 w-32" >
+              <div> <a href="#"> <i class="fa fa-instagram text-gray-100 hover:text-yellow-500"></i></a> </div>
+              <div> <a href="#"> <i class="fa fa-facebook text-gray-100 hover:text-yellow-500"></i></a> </div>
+              <div> <a href="#"> <i class="fa fa-twitter text-gray-100 hover:text-yellow-500"></i></a> </div>
+              <div> <a href="#"> <i class="fa fa-linkedin text-gray-100 hover:text-yellow-500"></i></a> </div>
+              <div> <a href="#"> <i class="fa fa-youtube text-gray-100 hover:text-yellow-500"></i></a> </div>
+            </div>
+            <div class="py-2 mt-2"><p class="text-sm text-blue-200">ossai@cribmd.com</p></div>
+            <div class="py-2"><p class="text-blue-200 text-sm">support@cribmd.com</p></div>
+           
+          </div>
+          <div class="grid sm:grid-cols-5 grid-cols-2">
+            <div class="flex flex-col">
+              <p class="text-gray-100 font-bold">For Patients</p>
+              <a href="#" class="py-2 text-blue-200 hover:text-gray-100 text-sm">Search for doctors</a>
+              <a href="#" class="py-2 text-blue-200 hover:text-gray-100 text-sm">Login</a>
+              <a href="#" class="py-2 text-blue-200 hover:text-gray-100 text-sm">Register</a>
+              <a href="#" class="py-2 text-blue-200 hover:text-gray-100 text-sm">Booking</a>
+            </div>
+            <div class="flex flex-col">
+              <p class="text-gray-100 font-bold">For Doctors</p>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">Appointments</a>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">Login</a>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">Register</a>
+            </div>
+            <div class="flex flex-col mt-4 sm:mt-0 ">
+              <p class="text-gray-100 font-bold">Company</p>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">About Us</a>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">Individual plan</a>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">Corporate Plan</a>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">FAQ </a>
+            </div>
+            <div class="flex flex-col mt-4 sm:mt-0 ">
+              <p class="text-gray-100 font-bold">Legal</p>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">Privacy Policy</a>
+              <a class="py-2 text-blue-300 hover:text-gray-100 text-sm" href="#">Terms of Service</a>
+            </div>
+            <div class="flex flex-col contact w-128">
+              <p class="text-gray-100 font-bold ">Contact</p>
+              <div class="flex flex-row space-x-2">
+                <div class="md:mt-2"><i class="fa fa-map-marker text-gray-100 "></i></div>
+                <p class="py-2 text-blue-200 hover:text-gray-100 text-sm">
+                  23777 Mulholland Hwy Calabasas, California, CA 91302.</p>
+              </div>
+              <div class="flex flex-row space-x-2">
+                <div class="md:mt-2"><i class="fa fa-map-marker text-gray-100 "></i></div>
+                <p class="py-2 text-blue-200 hover:text-gray-100 text-sm">4 Babatope Bejide Cres, Lekki Phase 1, Lagos, Nigeria 105102.</p>
+              </div>
+              <div class="flex flex-row space-x-2">
+                <div class="md:mt-2"><i class="fa fa-phone text-gray-100 "></i></div>
+                <p class="py-2 text-blue-200 hover:text-gray-100 text-sm">+1 631-238-1645</p>
+              </div>
+              <div class="flex flex-row space-x-2">
+                <div class="md:mt-2"><i class="fa fa-phone text-gray-100 "></i></div>
+                <p class="py-2 text-blue-200 hover:text-gray-100 text-sm">+234 906 034 6075</p>
+              </div>
+              <div class="flex flex-row space-x-2">
+                <div class="md:mt-2"><i class="fa fa-phone text-gray-100 "></i></div>
+                <p class="py-2 text-blue-200 hover:text-gray-100 text-sm">+234 808 195 1702</p>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="py-3 px-3"><p class="text-blue-200 text-sm">&copy; 2020 CribMD. All rights reserved.</p></div>
+      </div>
+    </footer>
   </div>
   <script src="node_modules/aos/dist/aos.js"></script>
   <script src="js/flickity.pkgd.min.js"></script>
   <script src="js/index.js"> </script>
   <script>
     AOS.init();
-   
+
   </script>
 </body>
 

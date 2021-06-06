@@ -82,8 +82,8 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button {
   top: 50%;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   /* vertically center */
   transform: translateY(-50%);
@@ -132,11 +132,11 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 8px;
+  width: 40px;
+  height: 4px;
+  margin: 0;
   background: #333;
-  border-radius: 50%;
+  border-radius: 0;
   opacity: 0.25;
   cursor: pointer;
 }
@@ -146,30 +146,64 @@ https://flickity.metafizzy.co
 }
 
 .main_carousel {
-  background: #eee;
+  background: rgb(255, 255, 255);
+  padding: 0 1rem;
+
+  height: 180px;
 }
 
 .carousel-cell {
   width: 100%;
-  height: 200px;
+  height: 170px;
   margin-right: 10px;
-  background: #8c8;
+  background-color: #ffffff;
+  border-radius: 6px;
   counter-increment: gallery-cell;
+  padding: 1rem;
 }
 
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+.svg-bg {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='500' height='1000' preserveAspectRatio='none' viewBox='0 0 500 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1069%26quot%3b)' fill='none'%3e%3crect width='500' height='1000' x='0' y='0' fill='rgba(13%2c 40%2c 67%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c424.862C79.638%2c418.986%2c157.701%2c392.061%2c219.322%2c341.272C277.229%2c293.544%2c300.59%2c219.771%2c331.686%2c151.476C362.744%2c83.263%2c413.688%2c16.213%2c400.956%2c-57.649C388.283%2c-131.169%2c318.794%2c-177.798%2c265.863%2c-230.372C216.78%2c-279.124%2c166.722%2c-324.565%2c103.639%2c-352.963C32.989%2c-384.768%2c-41.718%2c-414.174%2c-118.441%2c-403.374C-200.904%2c-391.766%2c-286.392%2c-358.025%2c-335.934%2c-291.088C-384.594%2c-225.343%2c-365.689%2c-135.212%2c-376.884%2c-54.188C-388.005%2c26.297%2c-425.975%2c105.882%2c-401.489%2c183.354C-375.85%2c264.475%2c-314.059%2c331.393%2c-241.156%2c375.246C-169.376%2c418.424%2c-83.539%2c431.026%2c0%2c424.862' fill='%230a1e33'%3e%3c/path%3e%3cpath d='M500 1391.56C581.476 1399.953 667.924 1412.334 740.071 1373.558 814.188 1333.723 855.934 1254.981 893.867 1179.873 933.081 1102.228 967.495 1020.361 962.306 933.53 956.8720000000001 842.594 927.38 750.054 864.258 684.369 802.3779999999999 619.976 709.572 603.1030000000001 623.147 580.601 539.227 558.751 448.099 518.918 369.497 555.548 291.70799999999997 591.799 276.647 693.669 228.329 764.596 186.784 825.58 122.834 871.568 105.36900000000003 943.261 87.07999999999998 1018.338 96.34500000000003 1099.41 129.798 1169.066 162.923 1238.039 224.161 1287.752 289.743 1327.167 353.86699999999996 1365.7060000000001 425.58 1383.893 500 1391.56' fill='%23103253'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1069'%3e%3crect width='500' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
+
+.tall {
+  height: 500px;
+}
+
+.tall-child {
+  height: 300px;
+}
+
+.contact {
+  width: 320px;
+}
+/* cell number */
 
 @media screen and (min-width: 768px) {
   /* half-width cells for larger devices */
   .carousel-cell {
-    width: 28%;
+    width: 30%;
+    padding: 2rem;
+  }
+
+  .main_carousel {
+    background: #eee;
+    padding: 0;
+  }
+  .tall {
+    height: 500px;
+    margin-top: -4rem;
+  }
+
+  .tall-child {
+    height: 500px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .svg-bg {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(13%2c 40%2c 67%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c511.887C107.048%2c511.511%2c213.414%2c525.515%2c313.75%2c488.204C430.88%2c444.648%2c572.668%2c398.672%2c617.811%2c282.145C663.126%2c165.173%2c573.131%2c42.127%2c532.543%2c-76.568C499.347%2c-173.645%2c473.343%2c-274.588%2c402.169%2c-348.481C333.031%2c-420.26%2c236.916%2c-453.146%2c141.645%2c-482.398C45.311%2c-511.977%2c-54.763%2c-544.013%2c-152.313%2c-518.731C-251.228%2c-493.095%2c-317.888%2c-409.037%2c-395.928%2c-343.074C-489.224%2c-264.217%2c-618.84%2c-210.914%2c-654.662%2c-94.126C-691.315%2c25.37%2c-645.568%2c158.069%2c-582.795%2c266.153C-523.134%2c368.879%2c-424.632%2c444.262%2c-315.171%2c490.416C-216.137%2c532.173%2c-107.476%2c512.265%2c0%2c511.887' fill='%23091c2f'%3e%3c/path%3e%3cpath d='M1440 1069.671C1551.498 1072.4 1669.979 1123.637 1767.815 1070.09 1866.693 1015.972 1900.421 894.183 1947.638 791.83 1995.0320000000002 689.093 2060.74 585.046 2043.1280000000002 473.283 2025.578 361.91499999999996 1941.78 272.202 1854.507 200.82799999999997 1776.113 136.71499999999997 1675.972 115.21499999999997 1577.319 92.33300000000003 1484.003 70.68900000000002 1388.676 45.202999999999975 1296.538 71.41300000000001 1204.019 97.731 1128.752 163.065 1067.614 237.32600000000002 1007.562 310.26800000000003 984.946 401.272 952.05 489.843 909.807 603.582 812.185 714.5509999999999 847.229 830.71 882.065 946.181 1010.473 1009.198 1122.337 1054.2930000000001 1222.692 1094.749 1331.829 1067.024 1440 1069.671' fill='%23113457'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
   }
 }
